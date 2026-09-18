@@ -61,7 +61,8 @@ só usar.
 faz commit + push no GitHub · `/atualizar` varre o projeto e atualiza
 a memória · `/novo-projeto` cria pasta isolada pra cada grupo, curso ou
 iniciativa nova · `/mapear-rotinas` descobre o que você repete e transforma
-em skill personalizada.
+em skill personalizada · `/manifesto-marca` entrevista profunda (15
+perguntas) que gera o manifesto de posicionamento e voz da sua marca.
 
 **Conteúdo e SEO** — vitrine pública do consultório
 `/carrossel` cria carrosséis 1080×1350 com identidade da marca (com ou

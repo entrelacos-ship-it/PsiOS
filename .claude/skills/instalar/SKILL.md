@@ -153,7 +153,13 @@ Se a pasta já tem nome próprio (não genérico), pular essa fase.
 >
 > Você mencionou que repete '<resposta da pergunta 8>' toda semana.
 > Quando quiser tirar isso das costas de vez, roda `/mapear-rotinas`
-> que eu transformo em skill própria."
+> que eu transformo em skill própria.
+>
+> Se quiser aprofundar sua identidade além do que preenchemos agora —
+> posicionamento, personalidade de marca, sistema de crenças — rodo o
+> `/manifesto-marca`. É uma entrevista mais longa (15 perguntas) que
+> gera um manifesto completo em `identidade/manifesto-marca.md`. Não é
+> obrigatório agora, só quando quiser."
 
 Se o usuário quiser publicar o trabalho no GitHub, mencionar `/salvar`.
 

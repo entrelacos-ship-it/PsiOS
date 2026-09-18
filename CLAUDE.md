@@ -23,7 +23,10 @@ sugerir prioridades, formatos ou abordagens, considerar o foco atual
 descrito em `estrategia.md`.
 
 Pra qualquer tarefa visual (carrossel, post, landing page), consultar
-`identidade/design-guide.md` como referência de estilo.
+`identidade/design-guide.md` como referência de estilo. Se
+`identidade/manifesto-marca.md` existir, consultar também pra
+posicionamento, tom e voz — ele é a referência mais profunda que o
+`design-guide.md` sozinho não cobre.
 
 Não é necessário listar o que foi lido nem confirmar a leitura. Apenas
 usar o contexto naturalmente.

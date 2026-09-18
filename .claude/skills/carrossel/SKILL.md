@@ -15,6 +15,7 @@ Skill central de criação de conteúdo visual. Pega um tema → entrega HTMLs e
 ## Dependências
 
 - **Identidade visual:** `identidade/design-guide.md` — LER ANTES de criar qualquer visual
+- **Posicionamento e voz:** `identidade/manifesto-marca.md` (se existir) — usar pra calibrar copy além do visual
 - **Contexto do negócio:** `_memoria/empresa.md`
 - **Tom de voz:** `_memoria/preferencias.md`
 - **Playwright:** pra renderizar HTML em PNG (`npx playwright screenshot` ou via `render.js`)
