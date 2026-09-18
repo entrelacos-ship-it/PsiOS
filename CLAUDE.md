@@ -1,7 +1,7 @@
-# MazyOS — Sistema operacional do negócio
+# PsiOS — Sistema operacional do consultório
 
-Sua empresa roda em cima desse arquivo. Aqui ficam as regras de operação
-do MazyOS — como o Claude lê o contexto, aprende com correções, mantém
+Seu consultório roda em cima desse arquivo. Aqui ficam as regras de operação
+do PsiOS — como o Claude lê o contexto, aprende com correções, mantém
 tudo atualizado e cria skills novas conforme a operação evolui.
 
 Esse arquivo é editável. Quando o `/instalar` rodar, ele complementa o

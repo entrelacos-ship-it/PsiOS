@@ -1,14 +1,14 @@
 ﻿---
 name: instalar
 description: >
-  Instala o MazyOS no negócio do usuário. Entrevista sobre empresa, tom de voz,
+  Instala o PsiOS no consultório do usuário. Entrevista sobre a atuação clínica, tom de voz,
   foco atual e identidade visual, e preenche `_memoria/empresa.md`, `_memoria/preferencias.md`,
   `_memoria/estrategia.md`, `identidade/design-guide.md` e adapta o `CLAUDE.md` conforme o perfil.
   Use quando o usuário acabou de clonar o repositório e quer instalar o sistema, ou quando
-  pedir explicitamente "rodar /instalar", "instalar o MazyOS", "primeiro setup".
+  pedir explicitamente "rodar /instalar", "instalar o PsiOS", "primeiro setup".
 ---
 
-# /instalar — Instalação inicial do MazyOS
+# /instalar — Instalação inicial do PsiOS
 
 Esse é o primeiro comando que o usuário roda depois de clonar o repositório. Não pode falhar e não pode soar burocrático. Trata como conversa de descoberta — pergunta uma coisa por vez, escuta de verdade, não enfileira tudo. O objetivo é o sistema sair daqui sabendo quem é a empresa, como ela fala, e onde tá o atrito do dia a dia.
 
@@ -16,9 +16,9 @@ Esse é o primeiro comando que o usuário roda depois de clonar o repositório. 
 
 ### 1. Nome da pasta
 
-Conferir o nome da pasta atual (`basename "$(pwd)"`). Se for `mazyos`, `MazyOS`, `MazyOS-main`, `mazyos-main` ou variação genérica:
+Conferir o nome da pasta atual (`basename "$(pwd)"`). Se for `psios`, `PsiOS`, `PsiOS-main`, `psios-main` ou variação genérica:
 
-> "Notei que a pasta atual ainda tem nome genérico ('<nome-atual>'). O ideal é a pasta ter o nome do seu negócio, não 'MazyOS'. Quando terminarmos o setup, te lembro de renomear (é rápido — fechar VS Code, renomear a pasta no Finder/Explorer, abrir de novo). Bora seguir?"
+> "Notei que a pasta atual ainda tem nome genérico ('<nome-atual>'). O ideal é a pasta ter o nome do teu consultório ou marca, não 'PsiOS'. Quando terminarmos o setup, te lembro de renomear (é rápido — fechar VS Code, renomear a pasta no Finder/Explorer, abrir de novo). Bora seguir?"
 
 Registrar mentalmente o nome atual pra usar na Fase 5.
 
@@ -39,12 +39,12 @@ Se for setup limpo, seguir direto.
 
 ## Fase 1 — Escolha do perfil
 
-Perguntar qual perfil mais combina com o negócio:
+Perguntar qual perfil mais combina com a atuação:
 
-1. **Solopreneur / criador solo** — uma pessoa só, mistura de marca pessoal e negócio
-2. **Freelancer** — atende clientes, organiza por projeto/cliente
-3. **Agência / consultoria** — equipe pequena entregando pra vários clientes
-4. **Empresa** — empresa estabelecida com setores (marketing, comercial, financeiro, etc.)
+1. **Psicóloga(o) solo / consultório individual** — atende sozinho, mistura de marca pessoal e prática clínica
+2. **Freelancer / multi-frente** — atende clientes de projetos (supervisão, cursos, conteúdo) organizados por projeto
+3. **Clínica / consultório com equipe** — equipe pequena de psicólogas(os) atendendo junto
+4. **Instituição / empresa estabelecida** — clínica grande ou instituição com setores (clínico, marketing, financeiro, etc.)
 
 A resposta determina qual template de `CLAUDE.md` aplicar (ver `templates/perfis/`).
 
@@ -54,18 +54,18 @@ A resposta determina qual template de `CLAUDE.md` aplicar (ver `templates/perfis
 
 Fazer essas perguntas em ordem, esperando a resposta de cada uma antes de seguir. Se vier resposta vaga, repetir uma vez pedindo concretude. Não insistir mais que isso — registrar o que vier.
 
-**Sobre o negócio:**
-1. "Como você chama o que você faz? (nome da empresa, ou seu nome se for marca pessoal)"
-2. "O que sua empresa entrega, em uma frase do jeito que você falaria pro vizinho?"
-3. "Quem te paga? (perfil de cliente real — descreve em uma ou duas frases, sem persona genérica)"
-4. "Você toca sozinho ou tem equipe? Se tem, quantos e cada um fazendo o quê?"
+**Sobre o consultório:**
+1. "Como você chama o que você faz? (nome do consultório/clínica, ou seu nome se for marca pessoal)"
+2. "O que você entrega/oferece, em uma frase do jeito que você falaria pro vizinho? (abordagem, público, formato de atendimento)"
+3. "Quem procura você? (perfil real de paciente/cliente — descreve em uma ou duas frases, sem persona genérica, sem dado sigiloso)"
+4. "Você atende sozinha(o) ou tem equipe? Se tem, quantas pessoas e cada uma fazendo o quê?"
 
 **Sobre voz:**
-5. "Me cola um exemplo da tua escrita — uma legenda do Insta, um email pra cliente, qualquer coisa real e recente. Assim eu calibro o jeito de escrever sem precisar adivinhar."
-6. "O que te dá ranço quando alguém escreve assim? (ex: 'vamos juntos!', emoji em email formal, 'caro cliente', jargão de guru, 'alavancar', 'sinergia')"
+5. "Me cola um exemplo da tua escrita — uma legenda do Insta, um email pra paciente/parceiro, qualquer coisa real e recente. Assim eu calibro o jeito de escrever sem precisar adivinhar."
+6. "O que te dá ranço quando alguém escreve assim? (ex: 'vamos juntos!', emoji em email formal, jargão de guru, 'alavancar', promessa de resultado clínico, sensacionalismo)"
 
 **Sobre foco:**
-7. "Qual o gargalo do teu negócio hoje? O que tá segurando ele de crescer?"
+7. "Qual o gargalo do teu consultório hoje? O que tá segurando ele de crescer?"
 8. "Se eu pudesse tirar UMA coisa que você repete toda semana das tuas costas, qual seria?"
 
 **Sobre identidade visual:**
@@ -144,7 +144,7 @@ Se a pasta já tem nome próprio (não genérico), pular essa fase.
 
 ## Fase 6 — Próximos passos
 
-> "Pronto. O MazyOS já te conhece.
+> "Pronto. O PsiOS já te conhece.
 >
 > No começo de cada sessão de trabalho, roda `/abrir` — eu carrego tudo
 > que combinamos aqui antes da primeira frase. Quando quiser fazer um
